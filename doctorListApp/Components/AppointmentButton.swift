@@ -25,7 +25,7 @@ struct AppointmentButton<Destination: View>: View {
                 }
             } else {
                 VStack {
-                    Text("Записаться")
+                    Text("Нет свободного расписания")
                         .foregroundColor(.black)
                         .frame(maxWidth: .infinity)
                         .frame(height: 47)
